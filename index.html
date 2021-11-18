@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="keywords" content="">
     <meta name="decription" content="">
-    <meta name="designer" content="">
+    <meta name="designer" content="Monir">
 
     <!-- Title -->
     <title>Welcome</title>
@@ -31,9 +31,9 @@
     <!--[if lte IE 9]> <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p><![endif]-->
 
     <!-- header-area start -->
-    <header class="header-area">
+    <header class="header-area" id="section1">
         <div class="container">
-            <nav class="navbar navbar-expand-lg">
+            <nav class="navbar navbar-expand-lg p-0">
                 <a class="navbar-brand" href="#">
                     <img src="images/logo.png" alt="">
                 </a>
@@ -44,17 +44,16 @@
                     </span>
                 </button>
                 <div class="collapse navbar-collapse">
-                    <ul class="navbar-nav ms-auto">
-                        <li><a href="#" id="active">Home</a></li>
-                        <li><a href="#">About us</a></li>
-                        <li><a href="#">Event</a></li>
-                        <li><a href="#">Blog</a></li>
-                        <li><a href="#">Partner</a></li>
-                        <li><a href="#">Contact</a></li>
+                    <ul class="navbar-nav ms-auto" id="main-nav">
+                        <li><a href="#section1" class="nav-link">Home</a></li>
+                        <li><a href="#section2" class="nav-link">All Courses</a></li>
+                        <li><a href="#section3" class="nav-link">About us</a></li>
+                        <li><a href="#section4" class="nav-link">Gallery</a></li>
+                        <li><a href="#section5" class="nav-link">Contact</a></li>
                     </ul>
+
                     <ul class="navbar-nav nav-btn ms-auto">
-                        <li><a href="#">Login</a></li>
-                        <li><a class="active" href="#">Signup</a></li>
+                        <li><a href="#">Registration</a></li>
                     </ul>
                 </div>
             </nav>
@@ -76,31 +75,280 @@
         <div class="offcanvas-body">
             <ul class="navbar-nav">
                 <li><a href="#" id="active">Home</a></li>
-                <li><a href="#">About us</a></li>
-                <li><a href="#">Event</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Partner</a></li>
+                <li><a href="#section1" class="nav-link">All Courses</a></li>
+                <li><a href="#" class="nav-link">About us</a></li>
+                <li><a href="#">Gallery</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
             <ul class="navbar-nav nav-btn">
-                <li><a href="#">Login</a></li>
-                <li><a class="active" href="#">Signup</a></li>
+                <li><a href="#">Registration</a></li>
             </ul>
         </div>
     </div>
     <!-- side-bar end -->
 
-    <!-- main-wrapper start -->
-    <main class="main-wrapper py-4">
-        <div class="container ">
-            <p>Lorem, ipsum dolor, sit amet consectetur adipisicing elit. Repellat fugit explicabo rerum necessitatibus,
-                alias enim libero ullam dolorem odio expedita similique, voluptatem autem quas praesentium, corrupti
-                impedit omnis quidem illo! Lorem ipsum dolor sit amet, consectetur, adipisicing elit. Dolorem
-                repudiandae omnis molestias fugit at dolorum, modi eligendi ipsa, quo perspiciatis distinctio nemo
-                nulla, ullam? Eius dicta inventore cum architecto, consequatur.</p>
+    <!-- hero-section start -->
+    <section class="hero-section">
+        <div class="row">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item slider1 active">
+                        <div class="container">
+                            <div class="row align-items-center">
+                                <div class="col-lg-6 order-2 order-lg-1">
+                                    <div class="hero-left">
+                                        <h2>Learn as your wish <br><span>Build Up selconfident</span></h2>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis eius error
+                                            corrupti praesentium deserunt veritatis, asperiores sit eum dolore.
+                                            Voluptates odit voluptas libero. Odio unde ab aliquam, ad quae sunt. Lorem,
+                                            ipsum dolor sit amet consectetur adipisicing elit. Quidem corporis
+                                            voluptates, quis qui magni ex</p>
+                                        <a href="#">Our Courses <i class="fas fa-chevron-down"></i></a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 order-1 order-lg-2">
+                                    <div class="hero-right">
+                                        <img src="images/hero-1.png
+                                            " alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item slider2">
+                        <div class="container">
+                            <div class="row align-items-center">
+                                <div class="col-lg-6 order-2 order-lg-1">
+                                    <div class="hero-left">
+                                        <h2>Learn as your wish <br><span>Build Up selconfident</span></h2>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis eius error
+                                            corrupti praesentium deserunt veritatis, asperiores sit eum dolore.
+                                            Voluptates odit voluptas libero. Odio unde ab aliquam, ad quae sunt. Lorem,
+                                            ipsum dolor sit amet consectetur adipisicing elit. Quidem corporis
+                                            voluptates, quis qui magni ex</p>
+                                        <a href="#">Our Courses <i class="fas fa-chevron-down"></i></a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 order-1 order-lg-2">
+                                    <div class="hero-right">
+                                        <img src="images/hero-2.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item slider3">
+                        <div class="container">
+                            <div class="row align-items-center">
+                                <div class="col-lg-6 order-2 order-lg-1">
+                                    <div class="hero-left">
+                                        <h2>Learn as your wish <br>Build Up selconfident</h2>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis eius error
+                                            corrupti praesentium deserunt veritatis, asperiores sit eum dolore.
+                                            Voluptates odit voluptas libero. Odio unde ab aliquam, ad quae sunt. Lorem,
+                                            ipsum dolor sit amet consectetur adipisicing elit. Quidem corporis
+                                            voluptates, quis qui magni ex</p>
+                                        <a href="#">Our Courses <i class="fas fa-chevron-down"></i></a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 order-1 order-lg-2">
+                                    <div class="hero-right">
+                                        <img src="images/hero-3.jpg" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-    </main>
-    <!-- main-wrapper end -->
+    </section>
+    <!-- hero-section end -->
+
+    <!-- course-area start -->
+    <section class="course-area" id="section2">
+        <div class="container">
+            <div class="upper-content text-center">
+                <h2>Our Courses</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit perferendis, eaque odio nemo placeat
+                    sapiente aspernatur corrupti in </p>
+            </div>
+            <div class="course-main">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. In quia id recusandae consectetur dolorum
+                quidem commodi, unde, hic labore atque a quo. Beatae assumenda quas,elit. In quia id recusandae
+                consectetur dolorum
+                quidem commodi, unde, hic labore atque a quo. Beatae assumenda quas, voluptates minus quisquam neque
+                reiciendis.elit. In quia id recusandae consectetur dolorum
+                quidem commodi, unde, hic labore atque a quo. Beatae assumenda quas, voluptates minus quisquam neque
+                reiciendis.elit. In quia id recusandae consectetur dolorum
+                quidem commodi, unde, hic labore atque a quo. Beatae assumenda quas, voluptates minus quisquam neque
+                reiciendis.elit. In quia id recusandae consectetur dolorum
+                quidem commodi, unde, hic labore atque a quo. Beatae assumenda quas, voluptates minus quisquam neque
+                reiciendis.elit. In quia id recusandae consectetur dolorum
+                quidem commodi, unde, hic labore atque a quo. Beatae assumenda quas, voluptates minus quisquam neque
+                reiciendis.elit. In quia id recusandae consectetur dolorum
+                quidem commodi, unde, hic labore atque a quo. Beatae assumenda quas, voluptates minus quisquam neque
+                reiciendis.elit. In quia id recusandae consectetur dolorum
+                quidem commodi, unde, hic labore atque a quo. Beatae assumenda quas, voluptates minus quisquam neque
+                reiciendis.elit. In quia id recusandae consectetur dolorum
+                quidem commodi, unde, hic labore atque a quo. Beatae assumenda quas, voluptates minus quisquam neque
+                reiciendis.elit. In quia id recusandae consectetur dolorum
+                quidem commodi, unde, hic labore atque a quo. Beatae assumenda quas, voluptates minus quisquam neque
+                reiciendis.elit. In quia id recusandae consectetur dolorum
+                quidem commodi, unde, hic labore atque a quo. Beatae assumenda quas, voluptates minus quisquam neque
+                reiciendis.elit. In quia id recusandae consectetur dolorum
+                quidem commodi, unde, hic labore atque a quo. Beatae assumenda quas, voluptates minus quisquam neque
+                reiciendis. voluptates minus quisquam neque
+                reiciendis.
+            </div>
+        </div>
+    </section>
+    <!-- course-area end -->
+
+    <!-- about-area start -->
+    <section class="about-area" id="section3">
+        <div class="container">
+            <div class="upper-content text-center">
+                <h2>About Us</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit perferendis, eaque odio nemo placeat
+                    sapiente aspernatur corrupti in </p>
+            </div>
+            <div class="course-main">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. In quia id recusandae consectetur dolorum
+                quidem commodi, unde, hic labore atque a quo. Beatae assumenda quas,elit. In quia id recusandae
+                consectetur dolorum
+                quidem commodi, unde, hic labore atque a quo. Beatae assumenda quas, voluptates minus quisquam neque
+                reiciendis.elit. In quia id recusandae consectetur dolorum
+                quidem commodi, unde, hic labore atque a quo. Beatae assumenda quas, voluptates minus quisquam neque
+                reiciendis.elit. In quia id recusandae consectetur dolorum
+                quidem commodi, unde, hic labore atque a quo. Beatae assumenda quas, voluptates minus quisquam neque
+                reiciendis.elit. In quia id recusandae consectetur dolorum
+                quidem commodi, unde, hic labore atque a quo. Beatae assumenda quas, voluptates minus quisquam neque
+                reiciendis.elit. In quia id recusandae consectetur dolorum
+                quidem commodi, unde, hic labore atque a quo. Beatae assumenda quas, voluptates minus quisquam neque
+                reiciendis.elit. In quia id recusandae consectetur dolorum
+                quidem commodi, unde, hic labore atque a quo. Beatae assumenda quas, voluptates minus quisquam neque
+                reiciendis.elit. In quia id recusandae consectetur dolorum
+                quidem commodi, unde, hic labore atque a quo. Beatae assumenda quas, voluptates minus quisquam neque
+                reiciendis.elit. In quia id recusandae consectetur dolorum
+                quidem commodi, unde, hic labore atque a quo. Beatae assumenda quas, voluptates minus quisquam neque
+                reiciendis.elit. In quia id recusandae consectetur dolorum
+                quidem commodi, unde, hic labore atque a quo. Beatae assumenda quas, voluptates minus quisquam neque
+                reiciendis.elit. In quia id recusandae consectetur dolorum
+                quidem commodi, unde, hic labore atque a quo. Beatae assumenda quas, voluptates minus quisquam neque
+                reiciendis.elit. In quia id recusandae consectetur dolorum
+                quidem commodi, unde, hic labore atque a quo. Beatae assumenda quas, voluptates minus quisquam neque
+                reiciendis. voluptates minus quisquam neque
+                reiciendis.
+            </div>
+        </div>
+    </section>
+    <!-- about-area end -->
+
+    <!-- gallery-area start -->
+    <section class="gallery-area" id="section4">
+        <div class="container">
+            <div class="upper-content text-center">
+                <h2>Gallery</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit perferendis, eaque odio nemo placeat
+                    sapiente aspernatur corrupti in </p>
+            </div>
+            <div class="course-main">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. In quia id recusandae consectetur dolorum
+                quidem commodi, unde, hic labore atque a quo. Beatae assumenda quas,elit. In quia id recusandae
+                consectetur dolorum
+                quidem commodi, unde, hic labore atque a quo. Beatae assumenda quas, voluptates minus quisquam neque
+                reiciendis.elit. In quia id recusandae consectetur dolorum
+                quidem commodi, unde, hic labore atque a quo. Beatae assumenda quas, voluptates minus quisquam neque
+                reiciendis.elit. In quia id recusandae consectetur dolorum
+                quidem commodi, unde, hic labore atque a quo. Beatae assumenda quas, voluptates minus quisquam neque
+                reiciendis.elit. In quia id recusandae consectetur dolorum
+                quidem commodi, unde, hic labore atque a quo. Beatae assumenda quas, voluptates minus quisquam neque
+                reiciendis.elit. In quia id recusandae consectetur dolorum
+                quidem commodi, unde, hic labore atque a quo. Beatae assumenda quas, voluptates minus quisquam neque
+                reiciendis.elit. In quia id recusandae consectetur dolorum
+                quidem commodi, unde, hic labore atque a quo. Beatae assumenda quas, voluptates minus quisquam neque
+                reiciendis.elit. In quia id recusandae consectetur dolorum
+                quidem commodi, unde, hic labore atque a quo. Beatae assumenda quas, voluptates minus quisquam neque
+                reiciendis.elit. In quia id recusandae consectetur dolorum
+                quidem commodi, unde, hic labore atque a quo. Beatae assumenda quas, voluptates minus quisquam neque
+                reiciendis.elit. In quia id recusandae consectetur dolorum
+                quidem commodi, unde, hic labore atque a quo. Beatae assumenda quas, voluptates minus quisquam neque
+                reiciendis.elit. In quia id recusandae consectetur dolorum
+                quidem commodi, unde, hic labore atque a quo. Beatae assumenda quas, voluptates minus quisquam neque
+                reiciendis.elit. In quia id recusandae consectetur dolorum
+                quidem commodi, unde, hic labore atque a quo. Beatae assumenda quas, voluptates minus quisquam neque
+                reiciendis. voluptates minus quisquam neque
+                reiciendis.
+            </div>
+        </div>
+    </section>
+    <!-- gallery-area end -->
+
+    <!-- contact-area start -->
+    <section class="contact-area" id="section5">
+        <div class="container">
+            <div class="upper-content text-center">
+                <h2>Contact Us</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit perferendis, eaque odio nemo placeat
+                    sapiente aspernatur corrupti in </p>
+            </div>
+            <div class="course-main">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. In quia id recusandae consectetur dolorum
+                quidem commodi, unde, hic labore atque a quo. Beatae assumenda quas,elit. In quia id recusandae
+                consectetur dolorum
+                quidem commodi, unde, hic labore atque a quo. Beatae assumenda quas, voluptates minus quisquam neque
+                reiciendis.elit. In quia id recusandae consectetur dolorum
+                quidem commodi, unde, hic labore atque a quo. Beatae assumenda quas, voluptates minus quisquam neque
+                reiciendis.elit. In quia id recusandae consectetur dolorum
+                quidem commodi, unde, hic labore atque a quo. Beatae assumenda quas, voluptates minus quisquam neque
+                reiciendis.elit. In quia id recusandae consectetur dolorum
+                quidem commodi, unde, hic labore atque a quo. Beatae assumenda quas, voluptates minus quisquam neque
+                reiciendis.elit. In quia id recusandae consectetur dolorum
+                quidem commodi, unde, hic labore atque a quo. Beatae assumenda quas, voluptates minus quisquam neque
+                reiciendis.elit. In quia id recusandae consectetur dolorum
+                quidem commodi, unde, hic labore atque a quo. Beatae assumenda quas, voluptates minus quisquam neque
+                reiciendis.elit. In quia id recusandae consectetur dolorum
+                quidem commodi, unde, hic labore atque a quo. Beatae assumenda quas, voluptates minus quisquam neque
+                reiciendis.elit. In quia id recusandae consectetur dolorum
+                quidem commodi, unde, hic labore atque a quo. Beatae assumenda quas, voluptates minus quisquam neque
+                reiciendis.elit. In quia id recusandae consectetur dolorum
+                quidem commodi, unde, hic labore atque a quo. Beatae assumenda quas, voluptates minus quisquam neque
+                reiciendis.elit. In quia id recusandae consectetur dolorum
+                quidem commodi, unde, hic labore atque a quo. Beatae assumenda quas, voluptates minus quisquam neque
+                reiciendis.elit. In quia id recusandae consectetur dolorum
+                quidem commodi, unde, hic labore atque a quo. Beatae assumenda quas, voluptates minus quisquam neque
+                reiciendis. voluptates minus quisquam neque
+                reiciendis.
+            </div>
+        </div>
+    </section>
+    <!-- contact-area end -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

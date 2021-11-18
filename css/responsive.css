@@ -5,13 +5,23 @@ Medium Screen - Others
 */
 @media screen and (min-width: 992px) and (max-width: 1200px) {
 
+	.hero-left h2 {
+		font-size: 36px;
+	}
 
-
-
-
-
+	.hero-left p {
+		font-size: 17px;
+	}
 
 	
+
+
+
+
+
+
+
+
 
 
 
@@ -34,6 +44,19 @@ Small Screen - Tablate
 	.modal-backdrop {
 	    background-color: #000;
 	}
+
+	.header-area {
+		position: initial;
+	}
+
+	.hero-left {
+		margin-top: 45px;
+	}
+
+	.carousel-item {
+		padding: 75px 0 85px;
+	}
+
 
 
 
@@ -67,6 +90,37 @@ Small Screen - Mobile
 	.modal-backdrop {
 	    background-color: #000000;
 	}
+
+	.header-area {
+		position: initial;
+	}
+
+	.navbar-brand img {
+		max-width: 121px;
+	}
+
+	.slider3 {
+		background: linear-gradient(to top, #32BACF, #1F3259);
+	}
+
+	.hero-left h2 {
+		font-size: 28px;
+	}
+
+	.hero-left p,
+	.hero-left a {
+		font-size: 17px;
+	}
+
+	.hero-left {
+		margin-top: 40px;
+	}
+
+	.carousel-item {
+		padding: 55px 0 85px;
+	}
+
+
 
 
 

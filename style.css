@@ -1,0 +1,198 @@
+/*=========
+fonts
+===========*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,700&display=swap');
+
+body {	
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;    
+	background: #fff;
+	color: #191919;	
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    transition: 0.2s all ease;
+    -webkit-transition: 0.2s all ease;
+    -moz-transition: 0.2s all ease;
+}
+
+a:visited,
+a:hover,
+a:active {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+::selection {
+    color: white; 
+    background: #ff7675;
+}
+
+::-webkit-selection {
+    color: white; 
+    background: #ff7675;
+}
+
+::-moz-selection {
+    color: white; 
+    background: #ff7675;
+}
+
+/*scrollto-top*/
+.scrollto-top {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px 20px 0 0;
+    background: rgba(0,0,0,.5);   
+    text-align: center;
+    padding-top: 8px;
+    font-size: 22px;
+    color: #ffffff;
+    position: fixed;
+    right: 5px;
+    bottom: 5px;
+    display: none;
+    transition: 0.2s all ease;
+    -webkit-transition: 0.2s all ease;
+    -moz-transition: 0.2s all ease;
+}
+
+.scrollto-top:hover {   
+    background: #000;
+    color: #fff;
+    box-shadow: 0px 0px 5px rgba(0,0,0,.5);
+    -webkit-box-shadow: 0px 0px 5px rgba(0,0,0,.5);
+    -moz-box-shadow: 0px 0px 5px rgba(0,0,0,.5);
+}
+
+/*===================
+header-area start
+=====================*/
+.navbar-brand img {
+    max-width: 100px;
+}
+
+.navbar-nav li {
+    padding: 10px 15px;
+}
+
+.navbar-nav li a {
+    font-size: 18px;
+    font-weight: 400;
+    color: #000;
+    transition: 0.2s all ease;
+}
+
+.navbar-nav li a:hover,
+.navbar-nav li #active {
+    color: #F36977;
+}
+
+.nav-btn li {
+    padding: 10px 8px;
+}
+
+.nav-btn li a {
+    background: transparent;
+    border: 1px solid #F36977;
+    display: inline-block;
+    padding: 8px 20px;
+    border-radius: 7px;
+}
+
+.nav-btn li a:hover,
+.nav-btn li .active {
+    background: #F36977;
+    color: #FFF;
+}
+
+.navbar-toggler {
+    outline: none!important;
+    box-shadow: none!important;
+    padding: 2px;
+    transition: 0.2s all ease;
+}
+
+.navbar-toggler:hover {
+    opacity: 0.75;
+}
+
+/*hamburger*/
+.hamburger-box {
+    width: 40px;
+    height: 24px;
+    display: inline-block;
+    position: relative;
+}
+
+.hamburger-inner {
+  display: block;
+  top: 50%;
+  margin-top: -2px;
+}
+
+.hamburger-inner, 
+.hamburger-inner::before, 
+.hamburger-inner::after {
+    width: 40px;
+    height: 4px;
+    background-color: #000;
+    border-radius: 4px;
+    position: absolute;
+}
+
+.hamburger-inner::before, 
+.hamburger-inner::after {
+    content: "";
+    display: block;
+    outline: none; 
+}
+
+.hamburger-inner::before {
+    top: -10px; 
+}
+
+.hamburger-inner::after {
+    bottom: -10px; 
+}
+
+/*side-bar*/
+.offcanvas-start {
+    width: 320px;
+}
+
+.offcanvas-header img {
+    max-width: 70px;
+}
+
+.offcanvas-body ul li {
+    padding: 10px 10px;
+}
+
+.btn-close {
+    opacity: 1;
+    font-size: 25px;
+    outline: none!important;
+    box-shadow: none!important;
+    transition: 0.2s all ease;
+}
+
+.modal-backdrop.show {
+    opacity: none;
+}
+
+.modal-backdrop {
+    background-color: transparent;
+}

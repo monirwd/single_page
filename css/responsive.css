@@ -120,6 +120,57 @@ Small Screen - Mobile
 		padding: 55px 0 85px;
 	}
 
+	.radio-button-opt {
+		position: relative;
+		padding-top: 50px;
+	}
+	
+	.radio-button-opt p {
+		display: block;
+		position: absolute;
+		top: 12px;
+	}
+
+	.form-info input, 
+	.form-info select, 
+	.form-info textarea,
+	.radio-button-opt {
+		margin-bottom: 12px;
+	}
+
+	.radio-button {
+		display: flex;
+	}
+	.radio-button label {
+		text-align: left;
+		display: inline-block;
+		margin: 0;
+	}
+
+	.radio-button input {
+		text-align: left;
+		display: inline-block;
+		margin: 0;
+		margin-left: 10px;
+	}
+
+	.radio2 {
+		margin-left: 40px;
+	}
+
+	.main-wraper2 {
+		padding: 60px 0 50px;
+	}
+
+	.form-info button {
+		margin-top: 25px;
+	}
+
+	.register-form h2 {
+		font-size: 28px;
+	}
+
+
 
 
 

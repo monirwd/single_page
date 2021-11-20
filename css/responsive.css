@@ -33,21 +33,6 @@ Medium Screen - Others
 		font-size: 15px;
 	}
 
-	
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
 
 /*
@@ -93,22 +78,17 @@ Small Screen - Tablate
 		margin-top: 30px;
 	}
 
+	.about-area {
+		margin-top: -85px;
+	}
+
 	.about-main {
 		padding: 30px 0 0;
 	}
 
-
-
-
-
-
-
-
-
-
-
-
-
+	.modal-dialog {
+		max-width: 720px;
+	} 
 
 }
 
@@ -236,7 +216,7 @@ Small Screen - Mobile
 	.gallery-area, 
 	.contact-area {
 		padding-top: 100px;
-		margin-top: -40px;
+		margin-top: -32px;
 	}
 
 	.about-left {
@@ -252,17 +232,15 @@ Small Screen - Mobile
 		margin: 15px auto;
 		text-align: center;
 	}
-	
 
+	.modal-dialog {
+		padding: 15px;
+	} 
 
-
-
-
-
-
-
-
-
-
+	@media screen and (max-width: 575px) {
+		.modal-dialog {
+			padding: 0;
+		} 
+	}
 
 }

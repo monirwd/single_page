@@ -237,14 +237,6 @@ header-area start
     transition: 0.2s all ease;
 }
 
-.modal-backdrop.show {
-    opacity: none;
-}
-
-.modal-backdrop {
-    background-color: transparent;
-}
-
 /*====================
 hero-section start
 ======================*/
@@ -414,6 +406,7 @@ course-area start
     font-weight: 700;
     color: #191919;
     text-transform: uppercase;
+    margin: 16px 0 10px;
 }
 
 .course-cnt p {
@@ -422,28 +415,79 @@ course-area start
     color: #191919;
 }
 
-.course-cnt {
-    margin-top: 15px;
+.course-cnt a {
+    font-size: 18px;
+    font-weight: 700;
+    color: #218A42;
+    background: transparent;
+    border: 1px solid #218A42;
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 5px;
+    margin-top: 8px;
+    transition: 0.2s all ease;
 }
 
+.course-cnt a i {
+    font-size: 15px;
+    display: inline-block;
+    margin-left: 5px;
+}
 
+.course-cnt a:hover {
+    background: #218A42;
+    color: #FFF;
+}
 
+/* accordian */
+.faq-box {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
 
+.faq-box h3 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #191919;
+    text-align: center;
+    margin-bottom: 12px;
+}
 
+.faq-box button {
+    font-size: 18px;
+    font-weight: 500;
+    color: #FFF!important;
+    background: #001722!important;
+    border: none;
+    outline: none;
+    box-shadow: none!important;
+}
 
+.accordion-button::after {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='white'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e")!important;
+}
 
+.accordion-item {
+    border: 2px solid #ddd;
+}
 
+.accordion-body {
+    border: 1px solid #777;
+}
 
-
-
-
-
-
-
+.accordion-body p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #191919;
+    margin-bottom: 5px;
+}
 
 /*===================
 about-area start
 =====================*/
+.about-area {
+    margin-top: -50px;
+}
+
 .about-main {
     padding: 40px 0 20px;
 }
@@ -483,6 +527,8 @@ gallery-area start
 .gallery-item {
     margin: 14px 0;
 }
+
+
 
 /*===================
 contact-area start
@@ -667,50 +713,16 @@ modal-area start
 }
 
 .modal-dialog {
-    max-width: 1050px;
+    max-width: 900px;
 }
 
-.modal-dialog {
-    background: #FFF;
+.modal-header h5 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #191919;
+    text-transform: uppercase;
+    margin-left: 15px;
 }
-
-.modal-bg.show {
-    opacity: 0.5;
-}
-
-.modal-bg {
-    background-color: #000;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /*=========================
 registration page start

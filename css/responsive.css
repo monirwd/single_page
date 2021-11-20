@@ -57,6 +57,10 @@ Small Screen - Tablate
 		padding: 75px 0 85px;
 	}
 
+	.contact-left {
+		margin-top: 45px;
+	}
+
 
 
 
@@ -168,6 +172,22 @@ Small Screen - Mobile
 
 	.register-form h2 {
 		font-size: 28px;
+	}
+
+	.contact-left {
+		margin-top: 45px;
+	}
+
+	.contact-main {
+		padding-top: 30px;
+	}
+
+	.course-area,
+	.about-area, 
+	.gallery-area, 
+	.contact-area {
+		padding-top: 100px;
+		margin-top: -40px;
 	}
 
 

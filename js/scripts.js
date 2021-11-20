@@ -1,5 +1,5 @@
 (function ($) {
-	$(document).ready(function () {
+	jQuery(document).ready(function () {
 
 		// Scroll to Top
 		jQuery('.scrolltotop').click(function () {
@@ -10,14 +10,14 @@
 		jQuery(window).scroll(function () {
 			var upto = jQuery(window).scrollTop();
 			if (upto > 500) {
-				jQuery('.scrolltotop').fadeIn();
+				jQuery('.scrollto-top').fadeIn();
 			} else {
-				jQuery('.scrolltotop').fadeOut();
+				jQuery('.scrollto-top').fadeOut();
 			}
 		});
 
 		//header-fixed
-		$(window).scroll(function () {
+		jQuery(window).scroll(function () {
 			var scroll = $(window).scrollTop();
 
 			if (scroll >= 15) {
@@ -27,27 +27,25 @@
 			}
 		});
 
-		//scroll-down
-		$(".hero-left a").click(function () {
-			$('html, body').animate({
-				scrollTop: $(".course-area").offset().top
-			}, 500);
-		});
-
 		//scroll-navigation
-		$('body').scrollspy({ target: '#main-nav' });
+		jQuery('body').scrollspy({ target: '#main-nav' });
 
-		$('#main-nav a').on('click', function (e) {
+		jQuery('#main-nav a').on('click', function (e) {
 			if (this.hash !== '') {
 				e.preventDefault();
 				const hash = this.hash;
-				$('html, body').animate({
-					scrollTop: $(hash).offset().top
+				jQuery('html, body').animate({
+					scrollTop: jQuery(hash).offset().top
 				}, 500, function () {
 					window.location.hash = hash;
 				});
 			}
 		});
+
+
+
+
+
 
 
 
